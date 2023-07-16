@@ -48,7 +48,7 @@ protected:
 
 	/** Default CameraBoom Length */
 	UPROPERTY(Category = " Movement Variables|Zoom", BlueprintReadOnly)
-	float DefaultZoomDistance{ 1350.0f };
+	float DefaultZoomDistance{ 5000.0f };
 
 	/** Default Pawn Rotation */
 	UPROPERTY(Category = " Movement Variables|Zoom", BlueprintReadOnly)
