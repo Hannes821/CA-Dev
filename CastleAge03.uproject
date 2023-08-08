@@ -84,6 +84,10 @@
 			"Name": "AdvancedRTSCamera",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/ded2d0d0f1ca415ebdc2c26c98d3e161"
+		},
+		{
+			"Name": "Water",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
@@ -92,6 +96,7 @@
 		"LinuxAArch64NoEditor",
 		"MacNoEditor",
 		"WindowsNoEditor",
-		"Windows"
+		"Windows",
+		"HoloLens"
 	]
 }

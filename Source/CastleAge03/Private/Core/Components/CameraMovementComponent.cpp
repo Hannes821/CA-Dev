@@ -22,7 +22,7 @@ UCameraMovementComponent::UCameraMovementComponent()
 	// Set default attributes
 	bDisableCameraMovement = false;
 	bDisableEdgeScroll = false;
-	DefaultMovementSpeed = 15.0f;
+	DefaultMovementSpeed = 50.0f;
 	MovementSpeedModifier = 1.0f;
 	CornerEdgeScrollSpeed = 0.707106781 * DefaultMovementSpeed; // 0.707106781 = rounded sqrt(.5). Using this value as it is less costly than running the sqrt().
 	DeltaZoomAmount = 0.5f;
