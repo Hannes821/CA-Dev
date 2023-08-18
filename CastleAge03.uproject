@@ -82,11 +82,19 @@
 		},
 		{
 			"Name": "AdvancedRTSCamera",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/ded2d0d0f1ca415ebdc2c26c98d3e161"
 		},
 		{
 			"Name": "Water",
+			"Enabled": true
+		},
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true
+		},
+		{
+			"Name": "StaticMeshEditorModeling",
 			"Enabled": true
 		}
 	],
