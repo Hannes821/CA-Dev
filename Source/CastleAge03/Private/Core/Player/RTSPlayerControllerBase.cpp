@@ -383,19 +383,23 @@ bool ARTSPlayerControllerBase::SetGameDay_Implementation(int GameDay)
 
 void ARTSPlayerControllerBase::RoC_PassDateTimeStruct_Implementation(FDateTime TimeStruct)
 {
-	if (!ensure(MainUI != nullptr)) return;
-	if (MainUI->GetClass()->ImplementsInterface(UGameTimeInterface::StaticClass()))
+	if (MainUI != nullptr)
 	{
-		IGameTimeInterface::Execute_SetGameDateTime(MainUI, TimeStruct);
+		if (MainUI->GetClass()->ImplementsInterface(UGameTimeInterface::StaticClass()))
+		{
+			IGameTimeInterface::Execute_SetGameDateTime(MainUI, TimeStruct);
+		}
 	}
 }
 
 void ARTSPlayerControllerBase::RoC_PassDayOfWeek_Implementation(int GameDay)
 {
-	if (!ensure(MainUI != nullptr)) return;
-	if (MainUI->GetClass()->ImplementsInterface(UGameTimeInterface::StaticClass()))
+	if (MainUI != nullptr)
 	{
-		IGameTimeInterface::Execute_SetGameDay(MainUI, GameDay);
+		if (MainUI->GetClass()->ImplementsInterface(UGameTimeInterface::StaticClass()))
+		{
+			IGameTimeInterface::Execute_SetGameDay(MainUI, GameDay);
+		}
 	}
 }
 
@@ -407,18 +411,23 @@ bool ARTSPlayerControllerBase::SetGameSpeedInt_Implementation(float GameSpeed)
 
 void ARTSPlayerControllerBase::RoC_PassGameSpeed_Implementation(float GameSpeed)
 {
-	if (!ensure(MainUI != nullptr)) return;
-	if (MainUI->GetClass()->ImplementsInterface(UGameTimeInterface::StaticClass()))
+	if (MainUI != nullptr)
 	{
-		IGameTimeInterface::Execute_SetGameSpeedInt(MainUI, GameSpeed);
+		if (MainUI->GetClass()->ImplementsInterface(UGameTimeInterface::StaticClass()))
+		{
+			IGameTimeInterface::Execute_SetGameSpeedInt(MainUI, GameSpeed);
+		}
 	}
 }
 
 void ARTSPlayerControllerBase::RoS_SetGameSpeed_Implementation(float SpeedMutliplerLocal)
 {
-	if (GetWorld()->GetGameState()->GetClass()->ImplementsInterface(UGameTimeInterface::StaticClass()))
+	if (GetWorld() && GetWorld()->GetGameState())
 	{
-		IGameTimeInterface::Execute_UpdateGameSpeed(GetWorld()->GetGameState(), SpeedMutliplerLocal);
+		if (GetWorld()->GetGameState()->GetClass()->ImplementsInterface(UGameTimeInterface::StaticClass()))
+		{
+			IGameTimeInterface::Execute_UpdateGameSpeed(GetWorld()->GetGameState(), SpeedMutliplerLocal);
+		}
 	}
 }
 
