@@ -96,16 +96,6 @@
 		{
 			"Name": "StaticMeshEditorModeling",
 			"Enabled": true
-		},
-		{
-			"Name": "TerrainMagic",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/e3f025f0cbf34b12b3fa2719f37ef522"
-		},
-		{
-			"Name": "StatsIntegration",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/ec733baa0ae049d08cda0c3528ebe8d4"
 		}
 	],
 	"TargetPlatforms": [
