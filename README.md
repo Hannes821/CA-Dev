@@ -1,28 +1,28 @@
-========================================
+
 **CASTLE AGE - Cultivation and Warfare**
-========================================
+
 *made by Feldfeste Games Studio, 2019-2024, all rights reserved.
 represented by Hannes Ulbricht*, 
 see https://feldfeste.com
 
-=========What is this repository?==============
+**What is this repository?**
 This is an internal, confidential and commercial development build of our upcoming RTS game.
 We have been working carefully for years with a dedicated team on it and will bring it to fruitiuon.
 
-========What is your team like?================
+**What is your team like?**
 We are roughly 10 people with a vision: make classic game design in contemporary technological implementation.
 Infotainment, added value, culture, art, tactics, nature, resources and economy as well as society.
 All these aspects are important in this game. It is an ambitious hybrid between battle tactics and build-up,
 with peaceful alternatives for victory but focus on micromanagement in battle and simulation.
 
-=========Can I support you guys?==============
+**Can I support you guys?**
 Oh yes. 
 You can chat with the team at https://discord.gg/4B5TU5CuNt.
 This is our Patreon link: https://www.patreon.com/FeldfesteGamesStudio.
 This is our Facebook link: https://www.facebook.com/Feldfeste/.
 
-=========frequently asked questions (FAQ)==============
-*name might be subject to change.
+**frequently asked questions (FAQ)**
+*name might be subject to change.*
 
 1) What is Castle Age*, the RTS title you are currently working on?
 
