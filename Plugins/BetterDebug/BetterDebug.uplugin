@@ -1,0 +1,38 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "BetterDebug",
+	"Description": "10X your debugging speed",
+	"Category": "Code Plugins",
+	"CreatedBy": "KampaiRaptor",
+	"CreatedByURL": "https://kampairaptor.com/",
+	"DocsURL": "https://docs.google.com/document/d/1z0oj0TdmtCj4BixBf1DbDnEVOvnQM3kryy_rTVh9skE/edit?usp=sharing",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/fc6e60a69f9d4125aee732a0f9dd86bf",
+	"SupportURL": "https://discord.gg/8y7kWZngqK",
+	"EngineVersion": "5.2.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"SupportedTargetPlatforms": [
+		"Win64",
+		"Android"
+	],
+	"Modules": [
+		{
+			"Name": "BetterDebugRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "BetterDebugEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		}
+	]
+}
