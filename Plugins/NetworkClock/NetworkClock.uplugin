@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.1",
+	"FriendlyName": "NetworkClock",
+	"Description": "Simple network synced clock",
+	"Category": "Code Plugins",
+	"CreatedBy": "Elemental Code",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/d41146e6f2094996aadbbe81d235822b",
+	"SupportURL": "",
+	"EngineVersion": "5.2.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "NetworkClock",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
