@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2.1",
+	"FriendlyName": "AdvancedRTSCamera",
+	"Description": "An RTS camera plugin for Unreal Engine with menu system",
+	"Category": "Two Neurons",
+	"CreatedBy": "Two Neurons Studio, LLC",
+	"CreatedByURL": "https://www.twoneuronsstudio.com/",
+	"DocsURL": "https://drive.google.com/file/d/1uC1VpS2kQvJ6rD4q3Zk4OAdyQ80A3GKO/view?usp=drive_link",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/ded2d0d0f1ca415ebdc2c26c98d3e161",
+	"SupportURL": "https://www.twoneuronsstudio.com/",
+	"EngineVersion": "5.2.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "AdvancedRTSCamera",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		}
+	]
+}
