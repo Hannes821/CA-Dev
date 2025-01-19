@@ -75,6 +75,10 @@
 				"Win64",
 				"Android"
 			]
+		},
+		{
+			"Name": "UBSplineStructureCreator",
+			"Enabled": true
 		}
 	]
 }
