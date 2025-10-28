@@ -1,96 +1,98 @@
 {
-	"FileVersion": 3,
-	"EngineAssociation": "5.2",
-	"Category": "",
-	"Description": "",
-	"Modules": [
-		{
-			"Name": "CastleAge",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine"
-			]
-		}
-	],
-	"Plugins": [
-		{
-			"Name": "Landmass",
-			"Enabled": true
-		},
-		{
-			"Name": "OnlineSubsystemSteam",
-			"Enabled": true
-		},
-		{
-			"Name": "SoundCueTemplates",
-			"Enabled": true
-		},
-		{
-			"Name": "GameplayAbilities",
-			"Enabled": true
-		},
-		{
-			"Name": "MinimapPlugin",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/ad08325742e24fb0836391bca25c72bb"
-		},
-		{
-			"Name": "ModelingToolsEditorMode",
-			"Enabled": true
-		},
-		{
-			"Name": "StaticMeshEditorModeling",
-			"Enabled": true
-		},
-		{
-			"Name": "SkeletalMeshModelingTools",
-			"Enabled": true
-		},
-		{
-			"Name": "LiveBlueprintDebugger",
-			"Enabled": false,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/6019cfbf80bb4942add3b61d9180380a"
-		},
-		{
-			"Name": "AdvancedRTSCamera",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/ded2d0d0f1ca415ebdc2c26c98d3e161"
-		},
-		{
-			"Name": "NetworkClock",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/d41146e6f2094996aadbbe81d235822b"
-		},
-		{
-			"Name": "EasyMultiSave",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/7232621c23174bbbbb64c7bfb6583f6f"
-		},
-		{
-			"Name": "BetterDebug",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/fc6e60a69f9d4125aee732a0f9dd86bf",
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Android"
-			]
-		},
-		{
-			"Name": "ImpostorBaker",
-			"Enabled": true
-		},
-		{
-			"Name": "UBSplineStructureCreator",
-			"Enabled": true
-		},
-		{
-			"Name": "Water",
-			"Enabled": true
-		},
-		{
-			"Name": "HDRIBackdrop",
-			"Enabled": true
-		}
-	]
+  "FileVersion": 3,
+  "EngineAssociation": "5.2",
+  "Category": "",
+  "Description": "",
+  "Modules": [
+    {
+      "Name": "CastleAge",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "Landmass",
+      "Enabled": true
+    },
+    {
+      "Name": "OnlineSubsystemSteam",
+      "Enabled": true
+    },
+    {
+      "Name": "SoundCueTemplates",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayAbilities",
+      "Enabled": true
+    },
+    {
+      "Name": "MinimapPlugin",
+      "Enabled": true
+    },
+    {
+      "Name": "ModelingToolsEditorMode",
+      "Enabled": true
+    },
+    {
+      "Name": "StaticMeshEditorModeling",
+      "Enabled": true
+    },
+    {
+      "Name": "SkeletalMeshModelingTools",
+      "Enabled": true
+    },
+    {
+      "Name": "LiveBlueprintDebugger",
+      "Enabled": false
+    },
+    {
+      "Name": "AdvancedRTSCamera",
+      "Enabled": true
+    },
+    {
+      "Name": "NetworkClock",
+      "Enabled": true
+    },
+    {
+      "Name": "EasyMultiSave",
+      "Enabled": true
+    },
+    {
+      "Name": "BetterDebug",
+      "Enabled": true,
+      "SupportedTargetPlatforms": [
+        "Win64",
+        "Android"
+      ]
+    },
+    {
+      "Name": "ImpostorBaker",
+      "Enabled": true
+    },
+    {
+      "Name": "UBSplineStructureCreator",
+      "Enabled": false
+    },
+    {
+      "Name": "Water",
+      "Enabled": true
+    },
+    {
+      "Name": "HDRIBackdrop",
+      "Enabled": true
+    },
+    {
+      "Name": "VisualStudioTools",
+      "Enabled": false,
+      "SupportedTargetPlatforms": [
+        "Win64"
+      ]
+    }
+  ],
+  "TargetPlatforms": [],
+  "AdditionalRootDirectories": [],
+  "AdditionalPluginDirectories": [],
+  "EpicSampleNameHash": ""
 }
